@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Tour Booking Form</h1>
+        </header>
+
+        <main>
+            <form action="">
+                <div class="item">
+                    <label for="name">Name
+                        <input type="text" id="name" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </label>
+
+                </div>
+
+                <div class="item">
+                    <label for="email">E-Mail
+                        <input type="email" id="email" placeholder="name@mail.ru">
+                    </label>
+                </div>
+
+                <div class="item">
+                    <label for="phone">Phone
+                        <input type="tel" id="phone" placeholder="### ### ####">
+                    </label>
+                </div>
+
+                <div class="item">
+                    <label for="date">
+                        When are you planning to vizit?
+                        <input type="date" id="date">
+                    </label>
+                </div>
+
+                <div class="item">
+                    <label for="number">
+                        How many people are in your group?
+                        <input type="number" id="number">
+                    </label>
+                </div>
+
+                <div class="item">
+                    <label for="land">
+                        Which tour are you most interested in?
+                        <select name="land" id="">
+                            <option value="">USA</option>
+                            <option value="">Italien</option>
+                            <option value="">Österreich</option>
+                            <option value="">Poland</option>
+                        </select>
+                    </label>
+                </div>
+
+
+                <div class="item">
+                    <label class="contact" for="contact">
+                        <legend> What is the best way to contact you?</legend>
+
+                        <label>
+                            <input type="checkbox" name="eng">
+                            Phone
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="eng">
+                            Email
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="eng">
+                            Either
+                        </label>
+                    </label>
+                </div>
+
+
+                <div class="item">
+                    <label class="time" for="time">
+                        <legend>If phone, when is the best time of day for a call-back?</legend>
+                        <label>
+                            <input type="radio" name="eng">
+                            8 - 11 AM
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="eng">
+                            12 - 4 PM
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="eng">
+                            6 - 10 PM
+                        </label>
+                    </label>
+                </div>
+
+                <div class="item">
+                    <label for="text">
+                        Anything else we should know?
+                        <textarea placeholder="" name="" id=""></textarea>
+                    </label>
+                </div>
+                
+                <div class="item">
+                    <button>Send</button>
+                </div>
+
+            </form>
+        </main>
+
+    </div>
+</body>
+
+</html>
